@@ -1,4 +1,5 @@
-[
+{
+  "posts": [
   {
     "id": 0,
     "description": "My NFT",
@@ -20,4 +21,8 @@
     "image": "https://twemoji.maxcdn.com/svg/1f40e.svg",
     "name": "My NFT 2"
   }
-]
+],
+  "profile": {
+    "name": "tokens"
+  }
+}
