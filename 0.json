@@ -1,0 +1,48 @@
+{
+  "name": "Wood Totem",
+  "description": "A mysterious totem",
+  "image": "1.png",
+  "properties": {
+      "vit": {
+          "type": "integer",
+          "description": "Describe the VIT power"
+      },
+      "str": {
+          "type": "integer",
+          "description": "Describe the STR power"
+      },
+      "agi": {
+          "type": "integer",
+          "description": "Describe the AGI power"
+      },
+      "int": {
+          "type": "integer",
+          "description": "Describe the INT power"
+      },
+      "type": {
+          "type": "object",
+          "description": "Describe the troops type"
+      },
+      "skill": {
+          "type": "object",
+          "description": {
+              "1" : "1",
+              "2" : "2",
+              "3" : "3",
+              "4" : "4",
+          }
+      },
+      "mining_power": {
+          "type": "object",
+          "description": "Describe the mining power"
+      },
+      "level": {
+          "type": "integer",
+          "description": "Describe troops level"
+      },
+      "nickname": {
+          "type": "string",
+          "description": "Describe troops name"
+      }
+    }
+  }
